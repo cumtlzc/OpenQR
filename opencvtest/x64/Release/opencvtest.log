@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/10/8 16:04:06。
+     1>项目“C:\Users\liuzhaochao\Desktop\opencvtest\opencvtest\opencvtest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\RecreationSoftware\MicrosoftVS2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\opencvtest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt /D_CRT_SECURE_NO_WARNINGS stdafx.cpp
+         stdafx.cpp
+         E:\RecreationSoftware\MicrosoftVS2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\opencvtest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt /D_CRT_SECURE_NO_WARNINGS opencvtest.cpp
+         opencvtest.cpp
+     1>E:\RecreationSoftware\OpenCV\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\RecreationSoftware\OpenCV\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\RecreationSoftware\OpenCV\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\RecreationSoftware\OpenCV\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>opencvtest.cpp(21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>opencvtest.cpp(117): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         E:\RecreationSoftware\MicrosoftVS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\liuzhaochao\Desktop\opencvtest\x64\Release\opencvtest.exe" /INCREMENTAL:NO /NOLOGO opencv_world320.lib opencv_world320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\liuzhaochao\Desktop\opencvtest\x64\Release\opencvtest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\liuzhaochao\Desktop\opencvtest\x64\Release\opencvtest.lib" /MACHINE:X64 x64\Release\opencvtest.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         opencvtest.vcxproj -> C:\Users\liuzhaochao\Desktop\opencvtest\x64\Release\opencvtest.exe
+     1>已完成生成项目“C:\Users\liuzhaochao\Desktop\opencvtest\opencvtest\opencvtest.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.29
